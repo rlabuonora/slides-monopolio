@@ -62,8 +62,8 @@ p1 <- ggplot(data.frame(x=seq(from=0, to=3e5, by=100)), aes(x)) +
   ) +
   labs(x="Q", y="P", title="Ejercicio 2") 
 
-ggsave("imgs/ejercicio_1.png", 
+ggsave("imgs/ejercicio_2.png", 
        dpi=300,
-       height=5, width=6)
+       height=3.5, width=6)
 
 
